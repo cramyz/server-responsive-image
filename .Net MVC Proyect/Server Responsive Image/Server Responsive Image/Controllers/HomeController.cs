@@ -11,7 +11,7 @@ namespace Server_Responsive_Image.Controllers
     {
          public ActionResult Index()
          {
-             return RedirectToAction("GetResponsiveImages", "ResponsiveImages", new {src = "D.png"});
+             return View();
          }
 
     }
