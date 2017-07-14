@@ -23,6 +23,7 @@ namespace Server_Responsive_Image.Controllers
         public AccountController(UserManager<ApplicationUser> userManager)
         {
             UserManager = userManager;
+            int a = 1;
         }
 
         public UserManager<ApplicationUser> UserManager { get; private set; }
